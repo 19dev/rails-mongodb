@@ -1,11 +1,20 @@
 source 'https://rubygems.org'
+source 'http://gemcutter.org'
+
+require 'mongo'
 
 gem 'rails', '3.2.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'execjs'
+gem 'therubyracer'
 
+gem "mongo_mapper"
+gem "bson_ext"
+gem "bson"
+gem "mongo"
 
 # Gems used only for assets and not required
 # in production environments by default.

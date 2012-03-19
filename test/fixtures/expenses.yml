@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  expense_name: MyString
+  date_spent: MyString
+  amount: 1
+
+two:
+  expense_name: MyString
+  date_spent: MyString
+  amount: 1
